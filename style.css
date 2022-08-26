@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'norse';
+    src: url('Norse-Bold.otf');
+}
+
+.norse {
+    font-family: 'norse';
+}
