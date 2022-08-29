@@ -72,6 +72,9 @@ form .input {
 }
 
 .main-footer button {
+    position: relative;
+    top: 0;
+    transition: top ease 0.1s;
     background-color: #596D48;
     border: 0;
     border-radius: 5%;
@@ -79,4 +82,22 @@ form .input {
     color: white;
     box-shadow: 0 2px 2px #DBDCDC;
     margin-bottom: 1rem;
+}
+
+.main-footer button:hover {
+    top: -0.1rem;
+    box-shadow: 0 4px 2px #DBDCDC;
+}
+
+.main-footer button:active {
+    background-color: #37432c;
+}
+
+.main-footer a {
+    color: #596D48;
+    text-decoration: none;
+}
+
+.main-footer a:hover {
+    text-decoration: underline;
 }
