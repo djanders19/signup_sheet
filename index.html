@@ -5,10 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans&display=swap" rel="stylesheet">
     <title>Signup</title>
 </head>
 
@@ -29,23 +31,39 @@
         <form action="" class="main-form">
             <p>Let's do nothing!</p>
 
-            <label for="firstName">FIRST NAME:</label>
-            <input type="text" name="firstName" id="firstName">
+            <div class="input">
+                <label for="firstName">FIRST NAME:</label>
+                <input type="text" name="firstName" id="firstName">
+            </div>
 
-            <label for="lastName">LAST NAME:</label>
-            <input type="text" name="lastName" id="lastName">
+            <div class="input">
+                <label for="lastName">LAST NAME:</label>
+                <input type="text" name="lastName" id="lastName">
+            </div>
 
-            <label for="email">EMAIL:</label>
-            <input type="email" name="email" id="email">
+            <div></div>
 
-            <label for="phoneNumber">PHONE NUMBER:</label>
-            <input type="number" name="phoneNumber" id="phoneNumber">
+            <div class="input">
+                <label for="email">EMAIL:</label>
+                <input type="email" name="email" id="email">
+            </div>
 
-            <label for="passwordInit">PASSWORD:</label>
-            <input type="password" name="passwordInit" id="passwordInit">
+            <div class="input">
+                <label for="phoneNumber">PHONE NUMBER:</label>
+                <input type="number" name="phoneNumber" id="phoneNumber">
+            </div>
 
-            <label for="passwordConfirm">CONFIRM PASSWORD:</label>
-            <input type="password" name="passwordConfirm" id="passwordConfirm">
+            <div></div>
+            
+            <div class="input">
+                <label for="passwordInit">PASSWORD:</label>
+                <input type="password" name="passwordInit" id="passwordInit">
+            </div>
+
+            <div class="input">
+                <label for="passwordConfirm">CONFIRM PASSWORD:</label>
+                <input type="password" name="passwordConfirm" id="passwordConfirm">
+            </div>
         </form>
 
         <div class="main-footer">

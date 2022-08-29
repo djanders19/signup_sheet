@@ -3,6 +3,8 @@
     grid-template-columns: 33.3% 66.6%;
     grid-template-rows: 33% 33% 33%;
     height: 100vh;
+    background-color: #F9FAFB;
+    font-family: 'Public Sans', sans-serif;
 }
 
 .sidebar {
@@ -17,4 +19,57 @@
 .logo {
     color: white;
     font-family: 'Raleway', sans-serif;
+    font-size: 7vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin: 10rem 0 0 0;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+input {
+    border: 1px solid #E5E7EB;
+    border-radius: 3%;
+    width: 80%;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid #657DE2;
+    border-radius: 3%;
+    box-shadow: 0 0.5px 2px;
+}
+
+form {
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 2px #DBDCDC;
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding-left: 2rem;
+}
+
+form p {
+    grid-column-start: span 3;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+form .input {
+    display: flex;
+    flex-direction: column;
+    font-size: x-small;
+}
+
+.main-footer {
+    padding: 2rem;
+}
+
+.main-footer button {
+    background-color: #596D48;
+    border: 0;
+    border-radius: 5%;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    color: white;
+    box-shadow: 0 2px 2px #DBDCDC;
+    margin-bottom: 1rem;
 }
