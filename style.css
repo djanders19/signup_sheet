@@ -53,6 +53,11 @@ form {
     display: grid;
     grid-template-columns: 1.5fr 1.5fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "title title title" 
+        "input1 input2 ."
+        "input3 input4 ."
+        "input5 input6 .";
     padding-left: 2rem;
 }
 
@@ -60,12 +65,37 @@ form p {
     grid-column-start: span 3;
     font-size: x-large;
     font-weight: bold;
+    grid-area: title;
 }
 
 form .input {
     display: flex;
     flex-direction: column;
     font-size: x-small;
+}
+
+#firstInput {
+    grid-area: input1;
+}
+
+#secondInput {
+    grid-area: input2;
+}
+
+#thirdInput {
+    grid-area: input3;
+}
+
+#fourthInput {
+    grid-area: input4;
+}
+
+#fifthInput {
+    grid-area: input5;
+}
+
+#sixthInput {
+    grid-area: input6;
 }
 
 .main-footer {
